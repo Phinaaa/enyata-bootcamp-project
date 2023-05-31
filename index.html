@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,5 +14,56 @@
     <script src="index.js" defer></script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+
+    <header class="red-background">
+      <h1 id="title-head">GameLoft</h1>
+    </header>
+    <!-- this is the hero section -->
+    <section id="hero-section">
+      <img src="./assets/banner.jpeg" alt="hero banner">
+
+      <div id="welcome-holder" class="red-background">
+        <h2>
+          <span>Welcome to</span><br>
+          <span id="gameLoft">GameLoft</span>
+        </h2>
+      </div>
+
+    </section>
+
+   <!-- Nav bar  -->
+   <nav class="page-nav">
+    <ul>
+      <li><a href="#" class="signupred">Sign Up</a></li>
+      <li><a href="#">Latest News</a></li>
+      <li><a href="#newReleases">New Releases</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article>
+      <h2 id="newReleases">Latest Releases</h2>
+      <p><span id = "lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatum aspernatur</span><br> repudiandae possimus in laboriosam, harum ea maxime dolorum accusamus? Odit tempora velit repellat, et aliquam facere vero perspiciatis veniam!</p>
+    </article>
+    <ul class="images">
+      <li><img src="./assets/game1.jpeg" alt="red dead redemption poster"></li>
+      <li><img src="./assets/game2.jpeg" alt="grand theft auto poster"></li>
+      <li><img src="./assets/game3.jpeg" alt="midnight club poster"></li>
+    </ul>
+  </main>
+  <section class="join" id="contact">
+    <h2 id="join">Join Today</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <form action="">
+      <input type="text" name="name" id="name" placeholder="Enter your name" required>
+      <input type="email" name="email" id="email" placeholder="Enter your email" required>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </section>
+  <footer>
+    <p class="copyright">Copyright &copy; 2022 GameLoft</p>
+  </footer>
+  <script src="index.js"></script>
+  </body>
 </html>

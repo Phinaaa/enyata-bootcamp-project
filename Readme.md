@@ -26,7 +26,7 @@
 ## Colors
 
 - #f63232
-- #f4f4f4 for background of the navbar and background of contact section
+-  #f4f4f4for background of the navbar and background of contact section
 - #ffffff
 - #4b4b4b for link texts and contact section text color
 
